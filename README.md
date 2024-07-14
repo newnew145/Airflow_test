@@ -23,7 +23,7 @@ RUN pip install apache-airflow==${AIRFLOW_VERSION} -r requirements.txt
 
 
 ## Running with Docker Compose
-
+ใช้คำสั่งเพื่อสร้าง container (localhost:8080) สำหรับการใช้งาน airflow
 ```sh
 docker compose up
 or
